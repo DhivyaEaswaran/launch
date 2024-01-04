@@ -1,0 +1,80 @@
+.sliderImageSize {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background-size: cover;
+  width: 100%;
+}
+
+.Nav-components {
+  list-style-type: none;
+}
+
+.Nav-components li {
+  float: left;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.NavigationBar {
+  width: 100%;
+  padding: 5px;
+  float: left;
+}
+
+.Nav-components li:hover {
+  display: block;
+  font-size: 17px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  
+}
+
+.courses-container {
+  position: relative;
+}
+
+.courses-container:hover .courses-list {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  z-index: 1;
+  color:black;
+}
+
+.courses-list {
+  position: absolute;
+  display: none;
+  padding-left: 0;
+}
+
+.HeroSlider {
+  width: 100%;
+}
+
+
+
+.services-list{
+  border-bottom: 1px dashed grey;
+  list-style-type:none;
+  
+} 
+
+
+.services li {
+  background-color: transparent; 
+  display:flex;
+  color:black;
+}
+
+
+
+
+
+
+
+
+
