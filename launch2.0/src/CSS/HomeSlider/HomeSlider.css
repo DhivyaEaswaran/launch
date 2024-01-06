@@ -14,7 +14,6 @@
 .Nav-components li {
   float: left;
   padding: 20px;
-  background-color: black;
   color: white;
 }
 
@@ -22,19 +21,23 @@
   width: 100%;
   padding: 5px;
   float: left;
+  background-color: grey;
+  margin-top:5px;
+  margin-bottom:2px;
 }
 
 .Nav-components li:hover {
-  display: block;
+  display: inline;
   font-size: 17px;
   text-decoration: none;
-  text-align: center;
   cursor: pointer;
   
 }
 
 .courses-container {
   position: relative;
+ 
+ 
 }
 
 .courses-container:hover .courses-list {
@@ -43,12 +46,15 @@
   text-align: center;
   z-index: 1;
   color:black;
+  
 }
 
 .courses-list {
   position: absolute;
   display: none;
   padding-left: 0;
+  border:2px solid yellow;
+  border-radius: 5px;
 }
 
 .HeroSlider {
@@ -68,13 +74,50 @@
   background-color: transparent; 
   display:flex;
   color:black;
+  transition-timing-function:linear;
+  background-color: white;
+  width:100%;
+}
+/* 
+.nav-right{
+float:right;
 }
 
+.nav-left{
+  float:left;
+
+} */
+.Logo{
+
+  width:10%;
+  height: 10%;
+}
+/* 
+.LogoContainer{
+  width:50%;
+}
+ */
 
 
 
+/* Your existing CSS */
 
+/* .Logo {
+  width: 50px; /* Adjust the width and height as needed */
+  /* height: 50px;
+} */ 
 
+/* New CSS to align items */
+/* .Nav-components {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Or 'space-around', 'space-evenly', etc. based on your layout preference */
+  /* list-style-type: none;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 10px; /* Adjust the margin between items as needed} */
 
 
 

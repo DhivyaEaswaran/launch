@@ -1,6 +1,6 @@
 
 import './App.css';
-import AboutUs from './Pages/AboutUs/AboutUs';
+import HomePageContent from './Pages/Home/HomePageContent';
 import NavigationBar from './Pages/Home/NavigationBar/NavigationBar';
 import HomeSlider from './Pages/Home/Slider/HomeSlider';
 
@@ -9,7 +9,8 @@ function App() {
     <div className="App">
       <NavigationBar/>
      <HomeSlider/>
-     <AboutUs/>
+     <HomePageContent/>
+     
     </div>
   );
 }

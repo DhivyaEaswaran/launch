@@ -1,11 +1,11 @@
 import React from 'react';
 
-import DigitalMarketing from "../../Services/DigitalMarketing";
-import WebDesigning from "../../Services/WebDesigning";
-import WebDevelopment from "../../Services/WebDevelopment";
-import MobAppMarketing from "../../Services/MobAppMarekting";
-import ECommerceServices from "../../Services/ECommerceServices";
-import WebHosting from "../../Services/WebHosting";
+import SoftwareDevelopment from "../../Services/SoftwareDevelopment";
+import PlacementSupport from "../../Services/PlacementSupport";
+import TrainingPrograms from "../../Services/TrainingPrograms";
+import StaffingSolution from "../../Services/StaffingSolution";
+import BPOServices from "../../Services/BPOServices";
+import DataAnnotation from "../../Services/DataAnnotation";
 
 export default function Services() {
   
@@ -18,12 +18,13 @@ export default function Services() {
       <div className='courses-list'>
 
         <ul className='services'>
-          <li className='services-list'>  <WebDesigning /> </li>
-          <li className='services-list'>  <WebDevelopment/> </li>
-          <li className='services-list'>  <MobAppMarketing/></li>
-          <li className='services-list'> <DigitalMarketing/></li>
-          <li className='services-list'> <ECommerceServices/></li>
-          <li className='services-list'> <WebHosting/> </li>
+
+          <li className='services-list'>  <TrainingPrograms/> </li>
+          <li className='services-list'>  <PlacementSupport /> </li>
+          <li className='services-list'>  <StaffingSolution/></li>
+          <li className='services-list'> <SoftwareDevelopment/></li>
+          <li className='services-list'> <BPOServices/></li>
+          <li className='services-list'> <DataAnnotation/> </li>
         </ul>
         
           
@@ -33,3 +34,7 @@ export default function Services() {
     </div>
   )
 }
+
+
+
+// ➢ DataAnnotation
