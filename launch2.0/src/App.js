@@ -11,8 +11,14 @@ function App() {
      <HomeSlider/>
      <HomePageContent/>
      
+     
     </div>
   );
 }
 
 export default App;
+
+
+
+
+

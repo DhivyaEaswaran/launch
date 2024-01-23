@@ -1,0 +1,51 @@
+*{
+font-family:'Times New Roman', Times, serif;
+}
+.aboutUs{
+    display:flex;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 80%;
+    align-items: center;
+}
+
+
+.AboutUs-containter1{
+    display:flex;
+    margin:100px;
+    align-items: center;
+   
+}
+.imageContainer1{
+    margin-right: 10px;
+    width:50%;
+    height: 50%;
+}
+ .Container1-image{
+    height: 570px;
+    width: 470px;
+} 
+
+.Container1-content{
+    text-align: justify;
+    width:50%;
+}
+
+
+.principles{
+    display:flex;
+    margin: 100px;
+    align-items: center;
+  }
+  .principles-list{
+    text-align:justify;
+    height: 400px;
+    align-items: center;
+    margin:8px;
+  }
+  .principles-title{
+    text-align:center;
+  }
+  .principles-image{
+    width:365px;
+  }

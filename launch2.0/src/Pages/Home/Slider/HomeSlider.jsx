@@ -17,9 +17,21 @@ export default function HomeSlider() {
           ></div>
         ))}
       </Slide>
+      <style>
+        {`
+        @media screen and (max-width: 768px){
+         .react-slideshow-container .default-nav {
+          display: none;
+        }
+      }
+        `}
+      </style>
     </div>
   );
 }
+
+
+
 
 // export default function HomeSlider() {
 //   const [currentSlide, setCurrentSlide] = useState(0);

@@ -15,7 +15,7 @@ export default function Services() {
 
       Services
 
-      <div className='courses-list'>
+      {/* <div className='courses-list'>
 
         <ul className='services'>
 
@@ -30,7 +30,7 @@ export default function Services() {
           
             
           
-      </div>
+      </div> */}
     </div>
   )
 }
